@@ -1,1 +1,2 @@
-module.exports = 'NOMBRE DEL COMPONENTE FORMATIVO'
+module.exports =
+  'Fundamentos de SIG aplicados en Sistemas Forestales y/o Agroecológicos'
