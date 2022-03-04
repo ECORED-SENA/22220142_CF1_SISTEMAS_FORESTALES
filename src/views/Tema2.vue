@@ -139,21 +139,19 @@
         .contenedor-verde.p-4
           .row
             .col-lg-6
-              .tarjeta.h-100
-                .tarjeta-icon-size.h-100
+              .tarjeta.h-100.tarjeta-icon-size.bg--1.h-100
                   .tarjeta-icon-size__icon.p-5
                     img(src='@/assets/curso/temas/26.svg' alt='AvatarTop' style='hight: 106px')
-                  .tarjeta-icon-size__content.bg--1.p-4
+                  .p-4
                     h4 ArcGis de la compañía ESRI
                     p Es el <em>software</em> más popularizado dentro de los ambientes SIG. Existen las versiones de escritorio, Pro, y en línea. Es un software muy versátil, pero es necesario adquirir la licencia para poder trabajar. 
             .col-lg-6
-              .tarjeta.h-100
-                .tarjeta-icon-size.h-100
-                  .tarjeta-icon-size__icon.p-5
-                    img(src='@/assets/curso/temas/27.svg' alt='AvatarTop')
-                  .tarjeta-icon-size__content.bg--2.p-4
-                    h4 <em>Software</em> QGIS
-                    p Es un <em>software</em> libre, que está muy a la par del ArcGis, es un programa muy versátil, que presenta una muy buena interfaz de trabajo y, además, cuenta con complementos gratuitos para facilitar los procesos que se realizan con los datos espaciales.
+              .tarjeta.h-100.tarjeta-icon-size.bg--2.h-100
+                .tarjeta-icon-size__icon.p-5.mb-3
+                  img(src='@/assets/curso/temas/27.svg' alt='AvatarTop')
+                .p-4
+                  h4 <em>Software</em> QGIS
+                  p Es un <em>software</em> libre, que está muy a la par del ArcGis, es un programa muy versátil, que presenta una muy buena interfaz de trabajo y, además, cuenta con complementos gratuitos para facilitar los procesos que se realizan con los datos espaciales.
 </template>
 
 <script>
