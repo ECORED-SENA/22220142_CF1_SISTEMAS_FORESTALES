@@ -65,6 +65,95 @@
               br
               br
               |Ejemplos: regiones, lotes, bosques, manzanas, barrios, etc.
+    .row
+      .col-lg-6
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/18.svg' alt='AvatarTop')
+          .tarjeta.color-acento-botones
+            .p-4.text-white
+              h4 Ráster: 
+              p Corresponde a cualquier tipo de imagen digital representada en mallas o celdas de la cuadrícula, conocidos generalmente como pixeles; dividen el espacio en celdas regulares, donde cada una de ellas representa un único valor.
+      .col-lg-6
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/19.svg' alt='AvatarTop')
+          .tarjeta.color-acento-botones
+            .p-4.text-white
+              h4 Vectorial:
+              p En este modelo, los datos están basados en la representación vectorial del componente espacial de los datos geográficos. Su representación es mediante puntos, líneas y polígonos.
+      .tarejta.bg-rojo.p-5
+        #carouselExampleIndicators.carousel.slide(data-bs-ride='carousel')
+          .carousel-indicators
+            button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
+            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2')
+            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='2' aria-label='Slide 3')
+          .carousel-inner.px-5
+            .carousel-item.active.px-5
+              .row.justify-content-center.px-5
+                .col-lg-6.mb-3 
+                  h4.text-center Vectorial
+                  img(src='@/assets/curso/temas/20.png')
+                .col-lg-6.mb-3 
+                  h4.text-center Ráster
+                  img(src='@/assets/curso/temas/21.png')
+                .col-lg-12.mb-5
+                  .contendor-rojo.p-2
+                    h4.text-center.mb-0 Puntos
+            .carousel-item.px-5
+              .row.justify-content-center.px-5
+                .col-lg-6.mb-3 
+                  h4.text-center Vectorial
+                  img(src='@/assets/curso/temas/22.png')
+                .col-lg-6.mb-3 
+                  h4.text-center Ráster
+                  img(src='@/assets/curso/temas/23.png')
+                .col-lg-12.mb-5
+                  .contendor-rojo.p-2
+                    h4.text-center.mb-0 Líneas
+            .carousel-item.px-5
+              .row.justify-content-center.px-5
+                .col-lg-6.mb-3 
+                  h4.text-center Vectorial
+                  img(src='@/assets/curso/temas/24.png')
+                .col-lg-6.mb-3 
+                  h4.text-center Ráster
+                  img(src='@/assets/curso/temas/25.png')
+                .col-lg-12.mb-5
+                  .contendor-rojo.p-2
+                    h4.text-center.mb-0 Polígonos
+          button.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev')
+            span.carousel-control-prev-icon(aria-hidden='true')
+            span.visually-hidden Previous
+          button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next')
+            span.carousel-control-next-icon(aria-hidden='true')
+            span.visually-hidden Next
+    #t_2_3.titulo-segundo.color-acento-contenido
+      h2 2.3 <em>Software</em> SIG
+    p.mb-5 En el mundo de los sistemas de información geográfica, se encuentra gran variedad de software que cumple con las funciones básicas para la realización de geoprocesos necesarios para el tratamiento de los datos geográficos. 
+      br
+      br
+      |Existen programas de código abierto, o libres, y software de pago. 
+    .row.justify-content-center
+      .col-lg-8
+        .contenedor-verde.p-4
+          .row
+            .col-lg-6
+              .tarjeta.h-100
+                .tarjeta-icon-size.h-100
+                  .tarjeta-icon-size__icon.p-5
+                    img(src='@/assets/curso/temas/26.svg' alt='AvatarTop' style='hight: 106px')
+                  .tarjeta-icon-size__content.bg--1.p-4
+                    h4 ArcGis de la compañía ESRI
+                    p Es el <em>software</em> más popularizado dentro de los ambientes SIG. Existen las versiones de escritorio, Pro, y en línea. Es un software muy versátil, pero es necesario adquirir la licencia para poder trabajar. 
+            .col-lg-6
+              .tarjeta.h-100
+                .tarjeta-icon-size.h-100
+                  .tarjeta-icon-size__icon.p-5
+                    img(src='@/assets/curso/temas/27.svg' alt='AvatarTop')
+                  .tarjeta-icon-size__content.bg--2.p-4
+                    h4 <em>Software</em> QGIS
+                    p Es un <em>software</em> libre, que está muy a la par del ArcGis, es un programa muy versátil, que presenta una muy buena interfaz de trabajo y, además, cuenta con complementos gratuitos para facilitar los procesos que se realizan con los datos espaciales.
 </template>
 
 <script>
@@ -99,4 +188,35 @@ export default {
 .tarjeta.color-primario
   p, h3
     color: $color-sistema-texto !important
+.bg-rojo
+  background-color: #FCEFE0
+.contendor-rojo
+  background-color: #F9DEC1
+.carousel-control-next-icon
+  background-image: url(../assets/curso/temas/flecha-derecha.svg)
+.carousel-control-prev-icon
+  background-image: url(../assets/curso/temas/flecha-izquierda.svg)
+button.carousel-control-next, button.carousel-control-prev
+  &:hover, &:focus, &:active
+    background-color: transparent !important
+.tarjeta-icon-size
+  height: 500px
+  border-radius: 20px
+  overflow: hidden
+  &__icon
+    background-color: #F0AD65
+    img
+      height: 106px
+      margin: 0 auto
+      transition: transform 0.3s ease-in-out
+  &:hover
+    .tarjeta-icon-size__icon
+      img
+        transform: scale(1.9)
+.bg--1
+  background-color: #34BD74
+.bg--2
+  background-color: #C7D851
+.contenedor-verde
+  background-color: #F4F7DC
 </style>
