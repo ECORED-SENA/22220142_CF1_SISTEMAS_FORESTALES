@@ -4,6 +4,18 @@
   background-size: cover
   background-position: 100 100
   border-radius: 20px !important
-// Backgrounds personalizados ////R
+// Backgrounds personalizados ////
 .bg--2-c1
   background-color: #F4F7DC
+.tarjeta-up
+  overflow: hidden
+  position: relative
+  &:hover
+    .tarjeta-up__img
+      bottom: 0
+  &__img
+    width: 100%
+    position: absolute
+    bottom: -200%
+    left: 0
+    transition: bottom .4s ease-in-out
