@@ -1,16 +1,16 @@
 <template lang="pug">
 .img-infografica
-  .img-infografica__img(:ref="'img-ref-'+mainId")
+  .img-infografica__img(:ref="'img-ref-'+mainId" @click="selected = 0")
     slot(name="imagen")
   .img-infografica__content(v-if="elements.length")
-    .img-infografica__item.p-4(
+    .img-infografica__item.px-5.py-2(
         v-for="(item, index) in elements"
         :key="'img-infografica-btn-'+item.id"
         :style="[{top: item.y},{left: item.x}]"
-        @mouseover="selected = item.id"
-        @mouseleave="selected = 0"
+        @click="selected = item.id"
+        :class="{'img-infografica__item--selected' : selected === item.id}"
       )
-      h4.mb-0(v-html="item.titulo") 
+      h5.mb-0.text-center(v-html="item.titulo") 
     .img-infografica__card(
       v-for="item in elements"
       :key="'img-infografica-card-'+item.id"
@@ -18,14 +18,13 @@
       :style="getCardCords(item.id)"
       :class="{'img-infografica__card--selected' : selected === item.id}"
       @mouseover="selected = item.id"
-      @mouseleave="selected = 0"
-      v-html="item.html"
+      v-child="item.elm"
     )
     .img-infografica__indicador(
       v-if="firstElement && showIndicator"
       :style="[{top: firstElement.y},{left: firstElement.x}]"
     )
-      .indicador--hover
+      .indicador--click
 
   .hidden-slot
     slot
@@ -98,6 +97,7 @@ export default {
 
 <style lang="sass">
 .img-infografica__item
+  transition: all 0.3s ease-in-out
   position: absolute
   cursor: pointer
   transform: translate(-50%,-50%)
@@ -117,4 +117,8 @@ export default {
       opacity: 1
       transform: translateY(0)
       pointer-events: auto
+.img-infografica__item--selected
+  background-color: #FF615B
+  h5
+    color: $white
 </style>
