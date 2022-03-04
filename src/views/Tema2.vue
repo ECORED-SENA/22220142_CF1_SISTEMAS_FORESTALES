@@ -82,7 +82,7 @@
             .p-4.text-white
               h4 Vectorial:
               p En este modelo, los datos están basados en la representación vectorial del componente espacial de los datos geográficos. Su representación es mediante puntos, líneas y polígonos.
-      .tarejta.bg-rojo.p-5
+      .tarejta.bg-rojo.p-5.mb-5
         #carouselExampleIndicators.carousel.slide(data-bs-ride='carousel')
           .carousel-indicators
             button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
@@ -140,7 +140,7 @@
           .row
             .col-lg-6
               .tarjeta.h-100.tarjeta-icon-size.bg--1.h-100
-                  .tarjeta-icon-size__icon.p-5
+                  .tarjeta-icon-size__icon.p-5.mb-3
                     img(src='@/assets/curso/temas/26.svg' alt='AvatarTop' style='hight: 106px')
                   .p-4
                     h4 ArcGis de la compañía ESRI
