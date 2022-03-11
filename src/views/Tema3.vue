@@ -18,13 +18,13 @@
             img(src='@/assets/curso/temas/29.jpg')
             .tarjeta-middle-text__content.p-4
               h5 Cartografía
-              p es la ciencia que estudia distintos sistemas o métodos para representar sobre un plano una parte o la totalidad de la superficie de la tierra, de forma que las deformaciones que se producen sean conocidas y se mantengan dentro de ciertos límites o condiciones que dependen de las características que en cada caso se pidan a la representación.
+              p Es la ciencia que estudia distintos sistemas o métodos para representar sobre un plano una parte o la totalidad de la superficie de la tierra, de forma que las deformaciones que se producen sean conocidas y se mantengan dentro de ciertos límites o condiciones que dependen de las características que en cada caso se pidan a la representación.
         .col-xl-5
           .tarjeta.tarjeta-middle-text
             img(src='@/assets/curso/temas/30.jpg')
             .tarjeta-middle-text__content.p-4
               h5 Geodesia
-              p es la ciencia que se encarga del estudio de la forma y las dimensiones de la tierra, considerando su orientación y posición relativa dentro del espacio. 
+              p Es la ciencia que se encarga del estudio de la forma y las dimensiones de la tierra, considerando su orientación y posición relativa dentro del espacio. 
     p.mb-5 A continuación, se desglosarán algunos términos y conceptos claves en el entendimiento de estas ciencias. 
     #t_3_1.titulo-segundo.color-acento-contenido
       h2 3.1 Geoide y elipsoide
@@ -106,8 +106,8 @@
               tr
                 td.bg-table.h5 GRS 1980 
                 td 6.378.137.000
-                td 6.378.137.000
-                td 6.378.137.000
+                td 6.356.752.000
+                td 298.257.222
               tr
                 td.bg-table.h5 International 1924 (Hayford)
                 td 6.378.388.000
@@ -127,7 +127,7 @@
                 td.bg-table.h5 WGS 72
                 td 6.378.135.000
                 td 6.356.750.520
-                td 298.250.000
+                td 298.260.000
               tr
                 td.bg-table.h5 WGS 84
                 td 6.378.137.000
@@ -138,21 +138,21 @@
       .col-lg-6(data-aos='fade-left')
         p Modelar el planeta tierra como un elipsoide, en lugar de una esfera, <b>nos da una comprensión más precisa de su forma</b>, aunque sigue siendo completamente regular, desconociendo las formas del relieve; es así como, para obtener una imagen más precisa, se debe utilizar un modelo GEOIDE.
     #t_3_2.titulo-segundo.color-acento-contenido
-      h2 3.2  Datum geodésico
-    p.mb-5 El datum geodésico es un sistema de referencia espacial que describe la forma y el tamaño de la tierra y establece un origen para los sistemas de coordenadas; existen dos tipos de Datum, los horizontales y los verticales.  
+      h2 3.2  <em>Datum</em> geodésico
+    p.mb-5 El <em>datum</em> geodésico es un sistema de referencia espacial que describe la forma y el tamaño de la tierra y establece un origen para los sistemas de coordenadas; existen dos tipos de Datum, los horizontales y los verticales.  
     .row.mb-5
       .col-lg-6
         .tarjeta.tarjeta-modal.p-5.h-100
           .tarjeta-modal__boton(@click="modal1 = true")
             img(src='@/assets/curso/temas/36.svg' style='width: 158px').m-auto.mb-5
           .text-center
-            p El datum horizontal oficial, definido para el país por el Instituto Geográfico Agustín Codazzi IGAC, mediante la Resolución 085 de 2005, se conoce como Marco Geocéntrico Nacional de Referencia MAGNA – SIRGAS, y tiene los siguientes parámetros.
+            p El <em>datum</em> horizontal oficial, definido para el país por el Instituto Geográfico Agustín Codazzi IGAC, mediante la Resolución 085 de 2005, se conoce como Marco Geocéntrico Nacional de Referencia MAGNA – SIRGAS, y tiene los siguientes parámetros.
       .col-lg-6
         .tarjeta.tarjeta-modal.p-5.h-100
           .tarjeta-modal__boton(@click="modal2 = true")
             img(src='@/assets/curso/temas/37.svg' style='width: 158px').m-auto.mb-5
           .text-center
-            p El sistema de referencia o datum vertical del país está referido al nivel medio del mar, definido por el mareógrafo de Buenaventura, y sirve como referencia para definir la altitud o altura respecto al nivel medio del mar de todos los elementos geográficos que se encuentran en el país.
+            p El sistema de referencia o <em>datum</em> vertical del país está referido al nivel medio del mar, definido por el mareógrafo de Buenaventura, y sirve como referencia para definir la altitud o altura respecto al nivel medio del mar de todos los elementos geográficos que se encuentran en el país.
     ModalA(:abrir-modal.sync="modal1")
       .row.align-items-center
         .col-md-3.mb-4.mb-md-0: img(src='@/assets/curso/temas/39.svg')
@@ -214,7 +214,7 @@
           
     ModalA(:abrir-modal.sync="modal2")
       .row.align-items-center.justify-content-center
-        .col-md-6.mb-4.mb-md-0: img(src='@/assets/curso/temas/38.jpg')
+        .col-md-6.mb-4.mb-md-0: img(src='@/assets/curso/temas/38.png')
     #t_3_3.titulo-segundo.color-acento-contenido
       h2 3.3 Sistemas de coordenadas utilizados en Colombia
     p.mb-5 La información geográfica del país se base en dos sistemas de coordenadas, las geográficas o elipsoidales, que se referencian con elipsoide GRS 1980 y están dadas en medidas angulares (grados – minutos – segundos) correspondientes a longitud y latitud; y las planas o proyectadas, las cuales se basan en el sistema de proyección <em>Gauss_Krüger</em> y dependen del origen según su localización geográfica en el territorio nacional. En el siguiente recurso, se podrá identificar en detalle el sistema de coordenadas utilizado en Colombia.

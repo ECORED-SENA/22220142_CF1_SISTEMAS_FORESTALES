@@ -107,11 +107,11 @@ export default {
       },
     ],
     subMenu: [
-      // {
-      //   icono: 'fas fa-sitemap',
-      //   titulo: 'Sintesis',
-      //   nombreRuta: 'sintesis',
-      // },
+      {
+        icono: 'fas fa-sitemap',
+        titulo: 'Síntesis',
+        nombreRuta: 'sintesis',
+      },
       {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
@@ -300,7 +300,7 @@ export default {
       },
       {
         nombre: 'Jorge Eduardo Álava Arévalo',
-        cargo: 'nstructor',
+        cargo: 'Instructor',
         centro:
           'Centro Internacional de Producción Limpia Lope – Regional Nariño',
       },
@@ -335,7 +335,18 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -347,7 +358,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Veimar Celis Melendez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

@@ -16,10 +16,11 @@
           | Esto sirve como base para la representación cartográfica y el análisis que se utiliza en la ciencia y en prácticamente todos los sectores. Un SIG ayuda a los usuarios a comprender los patrones, las relaciones y el contexto geográfico. Entre las ventajas se encuentran la mejora de la comunicación y la eficiencia, así como de la gestión y la toma de decisiones. 
     #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1 Definiciones y conceptos básicos
-    p.mb-5 Para estructurar un sistema de información geográfica, se requiere de la conjugación de varios componentes, siendo el principal los datos o información, que pueden ser de tipo espacial (mapas, fotografías aéreas, imágenes satelitales, etc.) y atributiva de cada entidad geográfica, la cual se encuentra, por lo general, en bases de datos. Adicionalmente, se requiere de equipos tecnológicos (hardware) y de aplicaciones (software) que permitan el procesamiento y análisis de la información necesaria, dependiendo del tipo de usuario que la requiera, así: 
+    p.mb-5 Para estructurar un sistema de información geográfica, se requiere de la conjugación de varios componentes, siendo el principal los datos o información, que pueden ser de tipo espacial (mapas, fotografías aéreas, imágenes satelitales, etc.) y atributiva de cada entidad geográfica, la cual se encuentra, por lo general, en bases de datos. Adicionalmente, se requiere de equipos tecnológicos (<em>hardware</em>) y de aplicaciones (<em>software</em>) que permitan el procesamiento y análisis de la información necesaria, dependiendo del tipo de usuario que la requiera, así: 
     .row.mb-5.justify-content-center
       .col-lg-6: img(src='@/assets/curso/temas/9.svg')
-    #t_2_1.titulo-segundo.color-acento-contenido
+    Separador
+    #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2 Tipos de objetos y datos espaciales
     .row.mb-5.align-items-center.g-5
       .col-lg-6(data-aos='fade-right'): img(src='@/assets/curso/temas/11.png')
@@ -65,6 +66,7 @@
               br
               br
               |Ejemplos: regiones, lotes, bosques, manzanas, barrios, etc.
+    p.mb-5 Dentro de los sistemas de información geográfica, se pueden encontrar dos formas de almacenar datos:
     .row
       .col-lg-6
         .tarjeta-avatar-b.mb-5
@@ -130,28 +132,29 @@
             span.visually-hidden Next
     #t_2_3.titulo-segundo.color-acento-contenido
       h2 2.3 <em>Software</em> SIG
-    p.mb-5 En el mundo de los sistemas de información geográfica, se encuentra gran variedad de software que cumple con las funciones básicas para la realización de geoprocesos necesarios para el tratamiento de los datos geográficos. 
+    p.mb-5 En el mundo de los sistemas de información geográfica, se encuentra gran variedad de <em>software</em> que cumple con las funciones básicas para la realización de geoprocesos necesarios para el tratamiento de los datos geográficos. 
       br
       br
-      |Existen programas de código abierto, o libres, y software de pago. 
-    .row.justify-content-center
-      .col-lg-8
-        .contenedor-verde.p-4
-          .row
-            .col-lg-6
-              .tarjeta.h-100.tarjeta-icon-size.bg--1.h-100
+      |Existen programas de código abierto, o libres, y <em>software</em> de pago. 
+    .contenedor-verde2.p-4
+      .row.justify-content-center
+        .col-lg-8
+          .contenedor-verde2.p-4
+            .row
+              .col-lg-6
+                .tarjeta.h-100.tarjeta-icon-size.bg--1.h-100
+                    .tarjeta-icon-size__icon.p-5.mb-3
+                      img(src='@/assets/curso/temas/26.svg' alt='AvatarTop' style='hight: 106px')
+                    .p-4
+                      h4 ArcGis de la compañía ESRI
+                      p Es el <em>software</em> más popularizado dentro de los ambientes SIG. Existen las versiones de escritorio, Pro, y en línea. Es un <em>software</em> muy versátil, pero es necesario adquirir la licencia para poder trabajar. 
+              .col-lg-6
+                .tarjeta.h-100.tarjeta-icon-size.bg--2.h-100
                   .tarjeta-icon-size__icon.p-5.mb-3
-                    img(src='@/assets/curso/temas/26.svg' alt='AvatarTop' style='hight: 106px')
+                    img(src='@/assets/curso/temas/27.svg' alt='AvatarTop')
                   .p-4
-                    h4 ArcGis de la compañía ESRI
-                    p Es el <em>software</em> más popularizado dentro de los ambientes SIG. Existen las versiones de escritorio, Pro, y en línea. Es un software muy versátil, pero es necesario adquirir la licencia para poder trabajar. 
-            .col-lg-6
-              .tarjeta.h-100.tarjeta-icon-size.bg--2.h-100
-                .tarjeta-icon-size__icon.p-5.mb-3
-                  img(src='@/assets/curso/temas/27.svg' alt='AvatarTop')
-                .p-4
-                  h4 <em>Software</em> QGIS
-                  p Es un <em>software</em> libre, que está muy a la par del ArcGis, es un programa muy versátil, que presenta una muy buena interfaz de trabajo y, además, cuenta con complementos gratuitos para facilitar los procesos que se realizan con los datos espaciales.
+                    h4 <em>Software</em> QGIS
+                    p Es un <em>software</em> libre, que está muy a la par del ArcGis, es un programa muy versátil, que presenta una muy buena interfaz de trabajo y, además, cuenta con complementos gratuitos para facilitar los procesos que se realizan con los datos espaciales.
 </template>
 
 <script>
@@ -215,6 +218,6 @@ button.carousel-control-next, button.carousel-control-prev
   background-color: #34BD74
 .bg--2
   background-color: #C7D851
-.contenedor-verde
+.contenedor-verde2
   background-color: #F4F7DC
 </style>

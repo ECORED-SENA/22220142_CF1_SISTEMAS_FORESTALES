@@ -38,7 +38,7 @@
           img(src='@/assets/curso/temas/42.svg', alt='Texto que describa la imagen' style="width: 39px").me-2
           h4.mb-0 Instituto Geográfico Agustín Codazzi IGAC
         p.mb-2 Aquí puede encontrar información como: mapa de cartografía básica; mapa de cartografía básica con relieve; mapa de sistema nacional catastral; mapa dinámico de líneas de vuelo; mapa de emergencia invernal; mapa de la subdirección de agrología; consulta de planchas a nivel nacional; consulta de planchas a escala 1:2.000 para Bogotá; socios internacionales del IGAC; visor de patrones Corine Land Cover, y consulta de aerofotografías a color.
-        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="https://geoportal.igac.gov.co/" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto

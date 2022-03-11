@@ -19,3 +19,14 @@
     bottom: -200%
     left: 0
     transition: bottom .4s ease-in-out
+.titulo-principal.color-acento-contenido
+  .titulo-principal__numero
+      span
+        color: $white
+.banner-principal__img
+  animation: scale 5s ease-in-out infinite alternate
+@keyframes scale
+  0%
+    transform: scale(1) rotate(-10deg)
+  100%
+    transform: scale(1.1) rotate(10deg)
