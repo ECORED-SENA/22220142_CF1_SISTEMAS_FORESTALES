@@ -130,6 +130,7 @@
           button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next')
             span.carousel-control-next-icon(aria-hidden='true')
             span.visually-hidden Next
+    Separador
     #t_2_3.titulo-segundo.color-acento-contenido
       h2 2.3 <em>Software</em> SIG
     p.mb-5 En el mundo de los sistemas de información geográfica, se encuentra gran variedad de <em>software</em> que cumple con las funciones básicas para la realización de geoprocesos necesarios para el tratamiento de los datos geográficos. 

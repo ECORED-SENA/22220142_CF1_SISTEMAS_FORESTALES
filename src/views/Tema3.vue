@@ -26,6 +26,7 @@
               h5 Geodesia
               p Es la ciencia que se encarga del estudio de la forma y las dimensiones de la tierra, considerando su orientación y posición relativa dentro del espacio. 
     p.mb-5 A continuación, se desglosarán algunos términos y conceptos claves en el entendimiento de estas ciencias. 
+    Separador
     #t_3_1.titulo-segundo.color-acento-contenido
       h2 3.1 Geoide y elipsoide
     .row.mb-5.justify-content-center
@@ -137,6 +138,7 @@
       .col-lg-6(data-aos='fade-right'): img(src='@/assets/curso/temas/35.png')
       .col-lg-6(data-aos='fade-left')
         p Modelar el planeta tierra como un elipsoide, en lugar de una esfera, <b>nos da una comprensión más precisa de su forma</b>, aunque sigue siendo completamente regular, desconociendo las formas del relieve; es así como, para obtener una imagen más precisa, se debe utilizar un modelo GEOIDE.
+    Separador
     #t_3_2.titulo-segundo.color-acento-contenido
       h2 3.2  <em>Datum</em> geodésico
     p.mb-5 El <em>datum</em> geodésico es un sistema de referencia espacial que describe la forma y el tamaño de la tierra y establece un origen para los sistemas de coordenadas; existen dos tipos de Datum, los horizontales y los verticales.  
@@ -215,6 +217,7 @@
     ModalA(:abrir-modal.sync="modal2")
       .row.align-items-center.justify-content-center
         .col-md-6.mb-4.mb-md-0: img(src='@/assets/curso/temas/38.png')
+    Separador
     #t_3_3.titulo-segundo.color-acento-contenido
       h2 3.3 Sistemas de coordenadas utilizados en Colombia
     p.mb-5 La información geográfica del país se base en dos sistemas de coordenadas, las geográficas o elipsoidales, que se referencian con elipsoide GRS 1980 y están dadas en medidas angulares (grados – minutos – segundos) correspondientes a longitud y latitud; y las planas o proyectadas, las cuales se basan en el sistema de proyección <em>Gauss_Krüger</em> y dependen del origen según su localización geográfica en el territorio nacional. En el siguiente recurso, se podrá identificar en detalle el sistema de coordenadas utilizado en Colombia.

@@ -23,6 +23,7 @@
           br
           br
           |Es necesario, también, <b>realizar la ubicación del predio de acuerdo con la división administrativa</b>, ya sea municipio, vereda, corregimiento, paraje, entre otros.
+    Separador
     #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2 Características biofísicas de la unidad de manejo forestal y/o agroecológica
     p.mb-5 Como parte de esta medición, se deben describir los usos actuales y coberturas del suelo, al igual que sus potencialidades, las características climáticas, geológicas, geomorfológicas, topográficas, hidrológicas, entre otras, así:
