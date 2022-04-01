@@ -216,7 +216,7 @@
           
     ModalA(:abrir-modal.sync="modal2")
       .row.align-items-center.justify-content-center
-        .col-md-6.mb-4.mb-md-0: img(src='@/assets/curso/temas/38.png')
+        .col-md-6.mb-4.mb-md-0: img(src='@/assets/curso/temas/38.svg')
     Separador
     #t_3_3.titulo-segundo.color-acento-contenido
       h2 3.3 Sistemas de coordenadas utilizados en Colombia
