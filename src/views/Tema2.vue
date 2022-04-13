@@ -10,7 +10,7 @@
       .col-lg-6(data-aos='fade-right'): img(src='@/assets/curso/temas/10.png')
       .col-lg-6(data-aos='fade-left')
         .cajon-b.color-primario.abajo-derecha.text-regular.p-3.mb-5
-          h2.h2.mb-2 Un sistema de información geográfica (SIG) es un sistema que <b>crea, administra, analiza y representa cartográficamente todo tipo de datos.</b>  Saavedra (1992).
+          h2.h2.mb-2 "Un sistema de información geográfica (SIG) es un sistema que <b>crea, administra, analiza y representa cartográficamente todo tipo de datos.</b>"  Saavedra (1992).
         p.mb-0 Un SIG conecta datos a un mapa, integrando datos de ubicación (dónde están las cosas) con todo tipo de información descriptiva (cómo son las cosas ahí). 
           br
           | Esto sirve como base para la representación cartográfica y el análisis que se utiliza en la ciencia y en prácticamente todos los sectores. Un SIG ayuda a los usuarios a comprender los patrones, las relaciones y el contexto geográfico. Entre las ventajas se encuentran la mejora de la comunicación y la eficiencia, así como de la gestión y la toma de decisiones. 
@@ -54,7 +54,7 @@
             p Entidades con formas lineales, que por lo general constituyen redes.
               br
               br
-              |Ejemplos: Ríos, vías, caminos, líneas de tubería, redes eléctricas, etc
+              |Ejemplos: Ríos, vías, caminos, líneas de tubería, redes eléctricas, etc.
       .col-lg-4
         .tarjeta-up.tarjeta.bg-verde.p-5.h-100
           .tarjeta-up__img
@@ -75,7 +75,7 @@
           .tarjeta.color-acento-botones
             .p-4.text-white
               h4 Ráster: 
-              p Corresponde a cualquier tipo de imagen digital representada en mallas o celdas de la cuadrícula, conocidos generalmente como pixeles; dividen el espacio en celdas regulares, donde cada una de ellas representa un único valor.
+              p Corresponde a cualquier tipo de imagen digital representada en mallas o celdas de la cuadrícula, conocidos generalmente como píxeles; dividen el espacio en celdas regulares, donde cada una de ellas representa un único valor.
       .col-lg-6
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img

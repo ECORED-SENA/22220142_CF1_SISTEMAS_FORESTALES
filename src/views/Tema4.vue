@@ -26,7 +26,7 @@
           img(src='@/assets/curso/temas/42.svg', alt='Texto que describa la imagen' style="width: 39px").me-2
           h4.mb-0 Sigot Colombia
         p.mb-2 Contiene insumos para la  planeación y el ordenamiento  territorial del país.
-        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="https://sigot.igac.gov.co/" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
