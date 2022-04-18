@@ -141,7 +141,7 @@
     Separador
     #t_3_2.titulo-segundo.color-acento-contenido
       h2 3.2  <em>Datum</em> geodésico
-    p.mb-5 El <em>datum</em> geodésico es un sistema de referencia espacial que describe la forma y el tamaño de la tierra y establece un origen para los sistemas de coordenadas; existen dos tipos de ;<em>Datum</em>, los horizontales y los verticales.  
+    p.mb-5 El <em>datum</em> geodésico es un sistema de referencia espacial que describe la forma y el tamaño de la tierra y establece un origen para los sistemas de coordenadas; existen dos tipos de <em>Datum</em>, los horizontales y los verticales.  
     .row.mb-5
       .col-lg-6
         .tarjeta.tarjeta-modal.p-5.h-100
